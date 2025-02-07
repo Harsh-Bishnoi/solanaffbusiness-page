@@ -77,6 +77,29 @@
     margin-top: 27px;
 }
 
+/* section 1 */
+.discover-btn {
+    padding: 15px 32px 15px 32px;
+    border-radius: 10px;
+}
+
+.discover-btn:hover{
+    background: var(--color-white);
+    color: var(--color-bloodmyst-isle) !important;
+}
+
+.mt-66 {
+    margin-top: 66px;
+}
+
+.max-w-591 {
+    max-width: 591px;
+}
+
+.max-w-536 {
+    max-width: 536px;
+}
+
 @media (max-width:1199.98px) {
     .nav-link {
         display: flex !important;
@@ -95,5 +118,11 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (min-width:992px) {
+    .h_100{
+        height: 100%;
     }
 }
