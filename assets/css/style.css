@@ -105,8 +105,21 @@
     margin-top: 114px;
 }
 
-.mb-91{
+.mb-91 {
     margin-bottom: 91px;
+}
+
+/* section 3 */
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-31 {
+    margin-top: 31px !important;
+}
+
+.mb-34 {
+    margin-bottom: 34px;
 }
 
 @media (max-width:1199.98px) {
