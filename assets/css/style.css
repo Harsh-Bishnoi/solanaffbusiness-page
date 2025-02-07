@@ -52,8 +52,29 @@
     border: none;
 }
 
+.nav-btn:hover {
+    background-color: var(--color-bloodmyst-isle) !important;
+    color: var(--color-white);
+}
+
 .text-hover:hover {
     color: var(--color-bloodmyst-isle) !important;
+}
+
+/* header */
+.bg-img {
+    background-image: url(../images/svg/header-burger-img.png) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-27 {
+    margin-top: 27px;
 }
 
 @media (max-width:1199.98px) {
