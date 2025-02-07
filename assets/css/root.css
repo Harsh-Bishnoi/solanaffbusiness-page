@@ -1,0 +1,100 @@
+:root {
+    /* font-family */
+    --font-family-first: "poppins", sans-serif;
+    --font-family-second: "Roboto", sans-serif;
+    /* color */
+    --color-bloodmyst-isle: #F4241E;
+    --color-white: #FFFFFF;
+    --bg-bloodmyst-isle: #F4241E;
+    --bg-hollandaise: #FFF03F;
+    --bg-eternal-summer: #F6E300;
+    /* font-size */
+    --fs-sm: 18px;
+    --fs-md: 24px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    /* line-height */
+    --lh-23: 23.44px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-32: 32.4px;
+    --lh-36: 36px;
+    --lh-54: 54px;
+    --lh-72: 72px;
+}
+
+/* font-family */
+.font-family-first {
+    font-family: var(--font-family-first);
+}
+
+.font-family-second {
+    font-family: var(--font-family-second);
+}
+
+/* colors */
+.color-bloodmyst-isle {
+    color: var(--color-bloodmyst-isle);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.bg-bloodmyst-isle {
+    background-color: var(--bg-bloodmyst-isle);
+}
+
+.bg-hollandaise {
+    background-color: var(--bg-hollandaise);
+}
+
+.bg-eternal-summer {
+    background-color: var(--bg-eternal-summer);
+}
+
+/* font-size */
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/* line-height */
+.lh-23 {
+    line-height: var(--lh-23);
+}
+
+.lh-27 {
+    line-height: var(--lh-27);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-32 {
+    line-height: var(--lh-32);
+}
+
+.lh-36 {
+    line-height: var(--lh-36);
+}
+
+.lh-54 {
+    line-height: var(--lh-54);
+}
+
+.lh-72 {
+    line-height: var(--lh-72);
+}
