@@ -83,7 +83,7 @@
     border-radius: 10px;
 }
 
-.discover-btn:hover{
+.discover-btn:hover {
     background: var(--color-white);
     color: var(--color-bloodmyst-isle) !important;
 }
@@ -98,6 +98,15 @@
 
 .max-w-536 {
     max-width: 536px;
+}
+
+/* section 2 */
+.mt-114 {
+    margin-top: 114px;
+}
+
+.mb-91{
+    margin-bottom: 91px;
 }
 
 @media (max-width:1199.98px) {
@@ -122,7 +131,7 @@
 }
 
 @media (min-width:992px) {
-    .h_100{
+    .h_100 {
         height: 100%;
     }
 }
