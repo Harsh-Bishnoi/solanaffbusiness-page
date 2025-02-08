@@ -22,6 +22,7 @@
     --lh-54: 54px;
     --lh-72: 72px;
     /* opacity */
+    --opactiy-70: 70%;
     --opactiy-80: 80%;
 }
 
@@ -102,6 +103,10 @@
 }
 
 /* opacity */
+.opacity-70 {
+    opacity: var(--opactiy-70);
+}
+
 .opacity-80 {
     opacity: var(--opactiy-80);
 }

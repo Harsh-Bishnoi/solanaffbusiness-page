@@ -140,6 +140,88 @@
     margin-bottom: 44px;
 }
 
+/* section 6 accordion  */
+.max-w-866 {
+    max-width: 866px;
+}
+
+.mb-7 {
+    margin-bottom: 7px;
+}
+
+.mt-58 {
+    margin-top: 58px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.gap-46 {
+    gap: 46px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.max-w-524 {
+    max-width: 524px;
+}
+
+.pt-52 {
+    padding-top: 52px;
+}
+
+.pb-44 {
+    padding-bottom: 44px;
+}
+
+.section-6 .accordion {
+    padding-top: 26px;
+    width: 922px;
+    --bs-accordion-border-color: none !important;
+}
+
+.section-6 .accordion-item {
+    background-color: var(--bg-hollandaise) !important;
+}
+
+.section-6 .accordion-button {
+    background-color: var(--bg-hollandaise) !important;
+    padding-top: 23px !important;
+    padding-bottom: 24px !important;
+}
+
+.section-6 .accordion-collapse {
+    padding-bottom: 19px !important;
+}
+
+.section-6 .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.section-6 .accordion-button::after {
+    width: 20px !important;
+    background-image: url(../images/svg/accordion-down-arrow.svg) !important;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.section-6 .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg) !important;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
 @media (max-width:1199.98px) {
     .nav-link {
         display: flex !important;
