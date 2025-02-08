@@ -127,6 +127,10 @@
     padding-top: 73px;
 }
 
+.mt-97 {
+    margin-top: 97px !important;
+}
+
 .pb-106 {
     padding-bottom: 106px;
 }
@@ -351,7 +355,7 @@
     }
 }
 
-@media (max-width:575px) {
+@media (max-width:575.98px) {
     .content {
         padding: 16px 11px 16px 11px;
     }
