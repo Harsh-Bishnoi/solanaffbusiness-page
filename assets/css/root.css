@@ -110,3 +110,9 @@
 .opacity-80 {
     opacity: var(--opactiy-80);
 }
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-md: 22px;
+    }
+}

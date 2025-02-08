@@ -122,6 +122,79 @@
     margin-bottom: 34px;
 }
 
+/* section 4 timeline */
+.pt-73 {
+    padding-top: 73px;
+}
+
+.pb-106 {
+    padding-bottom: 106px;
+}
+
+.timeline-bg-img {
+    background-image: url(../images/png/timeline-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1320px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    background-color: var(--bg-bloodmyst-isle);
+    top: 4%;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    height: 71.5%;
+}
+
+.content-box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 60%;
+}
+
+.content-box::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: -19px;
+    background-color: var(--color-white);
+    top: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: -10%;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 27px 23px 27px 23px;
+    background-color: var(--color-white);
+    position: relative;
+    border-radius: 10px;
+}
+
 /* section 5 */
 
 .mt-42 {
@@ -240,6 +313,47 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .content-box {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 25px;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+
+    .content-box::before {
+        left: 60px;
+        border: medium solid var(--color-white);
+        border-width: 10px 10px 10px 0;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .left {
+        left: 0%;
+    }
+}
+
+@media (max-width:575px) {
+    .content {
+        padding: 16px 11px 16px 11px;
     }
 }
 
