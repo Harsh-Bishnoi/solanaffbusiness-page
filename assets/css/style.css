@@ -61,6 +61,26 @@
     color: var(--color-bloodmyst-isle) !important;
 }
 
+.text-hover {
+    padding: 2px 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover::before {
+    content: '';
+    background: var(--color-bloodmyst-isle);
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover:hover::before {
+    width: 100%;
+}
+
 /* header */
 .bg-img {
     background-image: url(../images/svg/header-burger-img.png) !important;
@@ -297,6 +317,14 @@
     transform: rotate(180deg) !important;
     margin-bottom: 7px;
     margin-top: 0;
+}
+
+.up-hover {
+    transition: all 200ms linear;
+}
+
+.up-hover:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width:1199.98px) {
